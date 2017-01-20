@@ -1,0 +1,95 @@
+body{
+	min-height: 20.83rem;
+	position: relative;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	 background-color: #fef1d5;
+	display: flex;
+	flex-direction: row;
+}
+header .icon-dialog,header .icon-fanhui1{
+	
+	line-height: 2.89rem;
+	 font-size: 1.85rem;
+	color: #95524a;
+}
+header a{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.header-mi{
+	flex: 1;
+	text-align: center;
+	line-height: 2.89rem;
+	color: ##95524a;
+}
+.middle{
+	flex-direction:column;
+	display: flex;
+	border-bottom: 0.29rem #000000 solid;
+	padding-top:3rem;
+	padding-left: 2%;
+	padding-right: 5%;
+}
+
+.middle-top{
+	position: fixed;
+	flex-direction: row;
+}
+.waddress{
+	flex: 1;
+}
+.addres-choice{
+	flex: 1;
+}
+.footer{
+	height: 2.5rem;
+	width: 100%;
+	position:fixed;
+	background-color: #fef1d5;
+	bottom: 0;
+	position: fixed;
+	flex-direction: row;
+}
+
+.footer #input2{
+	position: absolute;
+	right: 3%;
+	bottom: 0.4rem;
+	font-size: 1rem;
+}
+.footer input{
+	background-color: #95524a;
+	color: #FFFFFF;
+	font-size: 1rem;
+	position: absolute;
+	top: 0.14rem;
+	margin-top: 1.6%;
+}
+.footer span{
+	line-height: 2rem;
+}
+.waddress,.pay,.distribution,.time,.gift,.cutlery,.transportCharge,.tableware,.candle,.favorable,.lmessage{
+	line-height: 1.34rem;
+}
+.waddress .icon-shape3{
+	color: #95524A;
+	font-size: 0.93rem;
+}
+.total{
+	padding-left: 3%;
+}
+.pay .icon-zhifu,.distribution .icon-peisong,.time .icon-shijian,.gift .icon-xinshouliyu3fbbef,.cutlery .icon-canju,.message .icon-tianxie{
+	color: #95524A;
+	font-size: 1rems;
+	
+}
+.middle .icon-jian,.middle .icon-jia{
+	color: #000;
+	font-size: 32px;
+	cursor: pointer;
+}
+

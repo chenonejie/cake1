@@ -1,0 +1,208 @@
+body{
+	min-height: 20.83rem;
+	position: relative;
+	
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	 background-color: #fef1d5;
+	display: flex;
+	flex-direction: row;
+}
+header .icon-dialog,header .icon-shezhi,header .icon-fanhui1{
+	
+	line-height: 2.89rem;
+	 font-size: 1.85rem;
+	color: #95524a;
+
+}
+header a{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.header-mi{
+	flex: 1;
+	text-align: center;
+	line-height: 2.89rem;
+	color: #95524a;
+}
+.goods-list{
+	padding-top:3rem;
+	padding-left: 2%;
+	padding-right: 5%;
+	
+}
+.goods-item{
+	border-bottom: 1px #000000 solid;
+	padding-top: 0.41rem;
+	padding-bottom: 0.29rem;
+	display: flex;
+	height: 8rem;
+}
+.goods-item .icon-xuanze{
+	font-size: 1.16rem;
+	color: lightgray;
+	line-height: 3.47rem;
+}
+.goods-img{
+	width:30%
+}
+.goods-item .goods-detail{
+	flex: 1;
+	flex-direction: column;
+	display: flex;
+	padding-left: 5%;
+}
+.goods-item{
+	-moz-box-shadow:0px 1px 2px #333333; 
+	-webkit-box-shadow:0px 1px 2px #333333; 
+	box-shadow:0px 1px 2px #333333;
+	margin-bottom: 0.4rem;
+}
+.goods-detail .goods-title,.goods-sell,.num{
+	flex: 1;
+	font-size: 1rem;
+}
+.goods-title{
+	color: #95524A;
+	line-height:1.45rem;
+	font-size: 1rem;
+}
+.goods-sell {
+	display: flex;
+	flex-direction: row;
+}
+.goods-sell .sell,{
+	flex: 1;
+}
+.money{
+	flex: 1;
+	text-align: center;
+}
+.goods-sell .goods-price{
+	color: #FF0000;
+	text-align: center;
+}
+.num{
+	flex: 1;
+	display: flex;1;
+	flex-direction: row;
+}
+.num .num1,.icon-shanchu{
+	flex: 1;
+}
+.num .icon-shanchu{
+	text-align: center;
+	font-size: 0.98rem;
+}
+.foot-top{
+	width: 100%;
+	height: 2.31rem;
+	position:fixed;
+	background-color: #FFFFFF;
+	bottom: 2.6rem;
+	
+}
+.foot-top .input1{
+	position: absolute;
+	right: 25%;
+	
+}
+.foot-top .input2{
+	position: absolute;
+	right: 3%;
+}
+.foot-top input{
+	background-color: #95524a;
+	color: #FFFFFF;
+	font-size: 0.75rem;
+	position: absolute;
+	
+	margin-top: 3%;
+}
+.foot-top span{
+	line-height: 2.31rem;
+}
+.remind{
+	width: 100%;
+	text-align: center;
+	font-size: 0.69rem;
+	padding-bottom: 5rem;
+	padding-top: 0.29rem;
+}
+.check{
+	margin-top: 2.31rem;
+}
+.icon-xuanze{
+	font-size: 1.15rem;
+	color: lightgrey;
+	
+}
+.allchooseBox{
+	color: #95524A;
+	font-size: 0.69rem;
+	cursor: pointer;
+}
+.finish{
+	color: #95524A;
+	font-size: 0.69rem;
+	position: absolute;
+	right: 5%;
+	cursor: pointer;
+	line-height: 150%;
+}
+.delete{
+	color: #95524A;
+	font-size: 0.69rem;
+	position: absolute;
+	right: 15%;
+	cursor: pointer;
+}
+.footer{
+	width:100%;
+	height:2.5rem;
+	background-color:#fef1d5;
+	display:flex;
+	padding:0.2rem 0;
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+.footer a{
+	flex:1;
+	text-align: center;
+	margin:0.2rem 0;
+}
+.footer i{
+	font-size:1.2rem;
+	color:#95524a;
+	line-height:90%;
+	
+}
+.footer a .icon-zhuye1,.footer a .icon-gouwuche1,{
+	font-size:1.3rem;
+	color:#95524a;
+	line-height:90%;
+}
+.footer p{
+	font-size:0.45rem;
+	color:#95524a;
+	line-height:250%;
+}
+.all-price{
+	color: red;
+}
+.money{
+	color: red;
+}
+.icon-xuanze1{
+	line-height: 500%;
+	color:#D4D4D4;
+	cursor: pointer;
+	
+}
+.color{
+	color:lightcoral;
+}
